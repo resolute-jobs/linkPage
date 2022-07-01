@@ -1,0 +1,337 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Bayon&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+
+    :root {
+        --main-background-color: #1D1B26;
+        --main-tittle-color: #FF8080;
+        --main-color: #ffffff;
+        --placeholder-color: #808080;
+    }
+
+
+
+    * {
+        background-color: none;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color: var(--main-color);
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        
+    }
+
+
+    body {
+        background-color: var(--main-background-color);
+
+    }
+
+
+    /*Logo do OnRoom.*/
+    #profilePicture {
+        background-color: none;
+        margin: 5% 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .profilLogo {
+
+        display: block;
+        margin: 0% auto 0px auto;
+        Padding: 0px 0px 0px 0px;
+
+        height:auto;
+        max-width: 200px;
+        border: 3px solid var(--main-tittle-color);
+        border-radius:50%;
+
+    }
+
+
+
+    /*informações do OnRoom.*/
+
+    #profileInformation {
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    a#profileName {
+        text-decoration: none;
+  
+  
+    }
+
+
+    #profileName h1 {
+        color: var(--main-tittle-color);
+        
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+
+        text-transform: uppercase;
+        font-size: 49px; 
+        font-family: 'Bayon', sans-serif;
+        text-align: center; 
+
+    }
+
+    #profileSlogan {
+        color: var(--main-color);
+
+        margin: -1.599% 0px 0px 0px; 
+        padding: 0px 0px 0px 0px;
+
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        
+
+    }
+
+
+    #profileDescription {
+        color: var(--main-color);
+        
+        margin: 1.40% 25% 4% 25%;
+        padding: 0px 0px 0px 0px;
+
+        font-weight: 500;
+        line-height: 150%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+    
+
+
+
+
+    /*RESOLUTE Links----------------------------------------------------------------------*/
+
+   .resolutelinksBlocks{
+        background-color: none;
+        text-align: center;
+   }
+   
+    .sublinksBlocks {
+        background-color: none;
+
+        margin: 25px 20% 0px 20%;
+        padding: 0px 0px 0px 0px;
+
+        font-weight: 900;
+
+        border: 4px solid var(--main-tittle-color);
+        border-radius: 50px;
+
+    }
+
+    .sublinksBlocks:hover {
+        background-color: var(--main-tittle-color);
+
+    }
+
+    .resoluteLinks{   
+        text-decoration: none;
+
+    }
+
+
+    .sublinksBlocks p {
+        background-color: none;
+        color: var(--main-tittle-color);
+
+        margin: 20px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
+
+        
+        font-size: 17px;
+
+    }
+
+    .sublinksBlocks p:hover{    
+        background-color: var(--main-tittle-color);
+        color: var(--main-background-color);
+        
+
+    }
+
+
+
+
+
+
+
+    /*Front-end and Back-end --------------------------------------------------------*/
+    .subText {
+        color: var(--main-color);
+
+
+        margin: 4% 0px 0.5% 0px;
+        padding: 0px 0px 0px 0px;
+
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 900;
+
+        
+
+    }
+
+
+    .links {
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+    /*Front-end Team-----------------------------------------------------------------*/
+    #frontBlock {
+        background-color: nonne;
+        text-align: center;
+    }
+
+    .linksFrontendBlocks {
+        background-color: none;
+
+        margin: 25px 20% 0px 20%;
+        padding: 0px 0px 0px 0px;
+
+        border: 4px solid var(--main-tittle-color);
+        border-radius: 50px;
+    }
+
+    .linksFrontendBlocks:hover {
+        background-color: var(--main-tittle-color);
+        color: var(--main-background-color);
+
+    }
+   
+    
+   
+    .linksFrontendBlocks p {
+        background-color:none;
+        color: var(--main-tittle-color);
+
+        margin: 20px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
+
+        font-size: 17px;
+        font-weight: 900;
+    }
+
+    .linksFrontendBlocks p:hover{
+        background-color: var(--main-tittle-color);
+        color: var(--main-background-color);
+
+    }
+
+
+
+    /*Back-end Team---------------------------------------------------------------------*/
+    #backBlock {
+        background-color: nonne;
+        text-align: center;
+    }
+
+    .linksBackendBlocks {
+        background-color: none;
+
+        margin: 25px 20% 0px 20%;
+        padding: 0px 0px 0px 0px;
+
+        border: 4px solid var(--main-tittle-color);
+        border-radius: 50px;
+    }
+
+    .linksBackendBlocks:hover {
+        background-color: var(--main-tittle-color);
+        color: var(--main-background-color);
+
+    }
+   
+    
+   
+    .linksBackendBlocks p {
+        background-color:none;
+        color: var(--main-tittle-color);
+
+        margin: 20px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
+
+        font-size: 17px;
+        font-weight: 900;
+    }
+
+    .linksBackendBlocks p:hover{
+        background-color: var(--main-tittle-color);
+        color: var(--main-background-color);
+
+    }
+
+
+
+
+
+
+
+    /*Footer--------------------------------------------------------------------------*/
+
+    footer {
+        background-color:none;
+        margin: 10% 0px 3% 0px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+
+
+    }
+
+    footer p {
+        color: var(--placeholder-color);
+        font-size: 15px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 
+    }
+
+
+
+
+
+
+/* Responsividade */
+@media screen and (max-width: 575.98px) {
+    #profileDescription{
+        font-size: 8px !important;
+    }
+
+}
+
+/* Small devices (tablet, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    #profileDescription{
+        font-size: 8px !important;
+    }
+
+    
+}
+
+
+
+
