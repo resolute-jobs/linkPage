@@ -154,15 +154,13 @@
         padding: 0px 0px 0px 0px;
 
         
-        font-size: 17px;
+        font-size: 18px;
 
     }
 
-    .linksBlocks p:hover{    
+    .linksBlocks:hover > a p{    
         background-color: var(--main-tittle-color);
         color: var(--main-background-color);
-        
-
     }
 
 

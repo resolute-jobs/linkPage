@@ -104,10 +104,10 @@
         margin: 1.40% 25% 4% 25%;
         padding: 0px 0px 0px 0px;
 
-        font-weight: 500;
+        font-weight: 400;
         line-height: 150%;
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
     }
 
 
@@ -233,11 +233,11 @@
         margin: 20px 0px 20px 0px;
         padding: 0px 0px 0px 0px;
 
-        font-size: 17px;
-        font-weight: 900;
+        font-size: 18px;
+        font-weight: 500;
     }
 
-    .linksFrontendBlocks p:hover{
+    .linksFrontendBlocks:hover > a p{
         background-color: var(--main-tittle-color);
         color: var(--main-background-color);
 
@@ -276,11 +276,11 @@
         margin: 20px 0px 20px 0px;
         padding: 0px 0px 0px 0px;
 
-        font-size: 17px;
-        font-weight: 900;
+        font-size: 18px;
+        font-weight: 500;
     }
 
-    .linksBackendBlocks p:hover{
+    .linksBackendBlocks:hover > a p{
         background-color: var(--main-tittle-color);
         color: var(--main-background-color);
 
