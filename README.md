@@ -39,4 +39,4 @@ Responsável por análisar as necessidades dos usuários e dos clientes, mantend
 
 > Scrum Master
 
-Responsável por gerir as equipes e manter a comunicação constante entre as equipes.  
+Responsável por gerir as equipes e manter a comunicação constante e eficiente.   
