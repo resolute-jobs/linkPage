@@ -34,3 +34,9 @@ Contamos também com os seguintes recursos:
 > Product Owner 
 
 Responsável por análisar as necessidades dos usuários e dos clientes, mantendo a adequação do projeto e uso eficiente dos recursos.
+
+
+
+> Scrum Master
+
+Responsável por gerir as equipes e manter a comunicação constante entre as equipes.  
